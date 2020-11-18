@@ -1,6 +1,7 @@
 .proletariat {
     background-color: #4CAF50;
     border: none;
+    width: 49%;
     color: white;
     padding: 50px 80px;
     margin-bottom: 5px;
@@ -13,8 +14,9 @@
     background-color: #2b64ba;
     border: none;
     color: white;
+    width: 99%;
     padding: 50px 80px;
-    margin-bottom: 5px;
+    margin-top: 5px;
     text-align: center;
     font-size: 16px;
 }
@@ -62,9 +64,17 @@
     background-color: #ff0000;
     border: none;
     color: white;
+    width: 49%;
     padding: 50px 80px;
     margin-bottom: 5px;
     text-align: center;
     font-size: 16px;
 }
 .BAD:active {background-color: #950000}
+
+.input {
+    height: 110px;
+    width: 49%;
+    font-size: 16px;
+    margin-bottom: 5px;
+}

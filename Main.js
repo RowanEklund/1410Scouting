@@ -17,51 +17,51 @@ function openTab(evt, tabName) {
 }
 
 ELGSBtn = document.getElementById("ELGS");
-ELGSBtn.onclick = function () {ELGM++;ELGSBtn.innerText = ELGM.toString();}
+ELGSBtn.onclick = function () {ELGM++;ELGSBtn.innerText = "Low goal Score: " + ELGM.toString();}
 ELGMBtn = document.getElementById("ELGM");
-ELGMBtn.onclick = function () {ELGS++;ELGMBtn.innerText = ELGS.toString();}
+ELGMBtn.onclick = function () {ELGS++;ELGMBtn.innerText = "Low goal Miss: " + ELGS.toString();}
 EMGSBtn = document.getElementById("EMGS");
-EMGSBtn.onclick = function () {EMGS++;EMGSBtn.innerText = EMGS.toString();}
+EMGSBtn.onclick = function () {EMGS++;EMGSBtn.innerText = "Mid goal Score: " + EMGS.toString();}
 EMGMBtn = document.getElementById("EMGM");
-EMGMBtn.onclick = function () {EMGM++;EMGMBtn.innerText = EMGM.toString();}
+EMGMBtn.onclick = function () {EMGM++;EMGMBtn.innerText = "Mid goal Miss: " + EMGM.toString();}
 EHGSBtn = document.getElementById("EHGS");
-EHGSBtn.onclick = function () {EHGS++;EHGSBtn.innerText = EHGS.toString();}
+EHGSBtn.onclick = function () {EHGS++;EHGSBtn.innerText = "High goal Score: " + EHGS.toString();}
 EHGMBtn = document.getElementById("EHGM");
-EHGMBtn.onclick = function () {EHGM++;EHGMBtn.innerText = EHGM.toString();}
+EHGMBtn.onclick = function () {EHGM++;EHGMBtn.innerText = "High goal Miss: " + EHGM.toString();}
 TLGSBtn = document.getElementById("TLGS");
-TLGSBtn.onclick = function () {TLGM++;TLGSBtn.innerText = TLGM.toString();}
+TLGSBtn.onclick = function () {TLGM++;TLGSBtn.innerText = "Low goal Score: " + TLGM.toString();}
 TLGMBtn = document.getElementById("TLGM");
-TLGMBtn.onclick = function () {TLGS++;TLGMBtn.innerText = TLGS.toString();}
+TLGMBtn.onclick = function () {TLGS++;TLGMBtn.innerText = "Low goal Miss: " + TLGS.toString();}
 TMGSBtn = document.getElementById("TMGS");
-TMGSBtn.onclick = function () {TMGS++;TMGSBtn.innerText = TMGS.toString();}
+TMGSBtn.onclick = function () {TMGS++;TMGSBtn.innerText = "Mid goal Score: " + TMGS.toString();}
 TMGMBtn = document.getElementById("TMGM");
-TMGMBtn.onclick = function () {TMGM++;TMGMBtn.innerText = TMGM.toString();}
+TMGMBtn.onclick = function () {TMGM++;TMGMBtn.innerText = "Mid goal Miss: " + TMGM.toString();}
 THGSBtn = document.getElementById("THGS");
-THGSBtn.onclick = function () {THGS++;THGSBtn.innerText = THGS.toString();}
+THGSBtn.onclick = function () {THGS++;THGSBtn.innerText = "High goal Score: " + THGS.toString();}
 THGMBtn = document.getElementById("THGM");
-THGMBtn.onclick = function () {THGM++;THGMBtn.innerText = THGM.toString();}
+THGMBtn.onclick = function () {THGM++;THGMBtn.innerText = "High goal Miss: " + THGM.toString();}
 ALGSBtn = document.getElementById("ALGS");
-ALGSBtn.onclick = function () {ALGM++;ALGSBtn.innerText = ALGM.toString();}
+ALGSBtn.onclick = function () {ALGM++;ALGSBtn.innerText = "Low goal Score: " + ALGM.toString();}
 ALGMBtn = document.getElementById("ALGM");
-ALGMBtn.onclick = function () {ALGS++;ALGMBtn.innerText = ALGS.toString();}
+ALGMBtn.onclick = function () {ALGS++;ALGMBtn.innerText = "Low goal Miss: " + ALGS.toString();}
 AMGSBtn = document.getElementById("AMGS");
-AMGSBtn.onclick = function () {AMGS++;AMGSBtn.innerText = AMGS.toString();}
+AMGSBtn.onclick = function () {AMGS++;AMGSBtn.innerText = "Mid goal Score: " + AMGS.toString();}
 AMGMBtn = document.getElementById("AMGM");
-AMGMBtn.onclick = function () {AMGM++;AMGMBtn.innerText = AMGM.toString();}
+AMGMBtn.onclick = function () {AMGM++;AMGMBtn.innerText = "Mid goal Miss: " + AMGM.toString();}
 AHGSBtn = document.getElementById("AHGS");
-AHGSBtn.onclick = function () {AHGS++;AHGSBtn.innerText = AHGS.toString();}
+AHGSBtn.onclick = function () {AHGS++;AHGSBtn.innerText = "High goal Score: " + AHGS.toString();}
 AHGMBtn = document.getElementById("AHGM");
-AHGMBtn.onclick = function () {AHGM++;AHGMBtn.innerText = AHGM.toString();}
+AHGMBtn.onclick = function () {AHGM++;AHGMBtn.innerText = "High goal Miss: " + AHGM.toString();}
 
 APSBtn = document.getElementById("APS");
-APSBtn.onclick = function () {APS++;APSBtn.innerText = APS.toString();}
+APSBtn.onclick = function () {APS++;APSBtn.innerText = "Power Shot: " + APS.toString();}
 EPSBtn = document.getElementById("EPS");
-EPSBtn.onclick = function () {EPS++;EPSBtn.innerText = EPS.toString();}
+EPSBtn.onclick = function () {EPS++;EPSBtn.innerText = "Power Shot: " + EPS.toString();}
 
 PMABtn = document.getElementById("PMA");
-PMABtn.onclick = function () {PMA++;PMABtn.innerText = PMA.toString();}
+PMABtn.onclick = function () {PMA++;PMABtn.innerText = "Major Penalty: " + PMA.toString();}
 PMIBtn = document.getElementById("PMI");
-PMIBtn.onclick = function () {PMI++;PMIBtn.innerText = PMI.toString();}
+PMIBtn.onclick = function () {PMI++;PMIBtn.innerText = "Minor Penalty: " + PMI.toString();}
 
 let rqst = new XMLHttpRequest();
 let url = "http://localhost:3000";
